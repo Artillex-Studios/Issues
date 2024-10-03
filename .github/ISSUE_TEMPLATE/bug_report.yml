@@ -1,0 +1,37 @@
+name: "Bug Report"
+description: "Report a bug"
+title: "[BUG] "
+labels: ["bug: unconfirmed", "priority: LOW"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to report an issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description of the bug"
+      description: "Describe what happened that is wrong, or should not have happened. If you want to share parts of your log, please share your entire latest.log file from the logs folder, and upload it to https://mclo.gs/"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behaviour"
+      description: "What did you expect would happen?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "How can we see the issue? This may include a video, pictures, or anything that might help us diagnose the issue."
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: "Versions"
+      description: "What server, and plugin versions are you using? Latest is not a version number, please check the version with /version <plugin> and /version"
+    validations:
+      required: true
