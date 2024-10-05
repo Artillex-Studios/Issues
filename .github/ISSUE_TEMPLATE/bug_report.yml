@@ -32,6 +32,6 @@ body:
     id: versions
     attributes:
       label: "Versions"
-      description: "What server, and plugin versions are you using? Latest is not a version number, please check the version with /version <plugin> and /version"
+      description: "What server, and plugin versions are you using? Latest is not a version number, please check the version with /version (plugin) and /version"
     validations:
       required: true
