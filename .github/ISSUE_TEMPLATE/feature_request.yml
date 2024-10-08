@@ -14,6 +14,33 @@ body:
       description: "Describe what you'd like added to the plugin."
     validations:
       required: true
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: In which plugin would you like this feature?
+      multiple: false
+      options:
+        - axafkzone
+        - axauctions
+        - axboosters
+        - axcalendar
+        - axenvoys
+        - axgens
+        - axgraves
+        - axinventoryrestore
+        - axkills
+        - axkoth
+        - axmines
+        - axminions
+        - axquestboard
+        - axrankmenu
+        - axrewards
+        - axsellwands
+        - axshulkers
+        - axsmithing
+        - axsumo
+        - axtrade
+        - axvaults
   - type: checkboxes
     id: agreements
     attributes:
