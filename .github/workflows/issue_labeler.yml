@@ -17,6 +17,10 @@ jobs:
       # only required for workflows in private repositories
       actions: read
       contents: read
+    
+    strategy:
+      matrix:
+        template: [ bug_report.yml, feature_request.yml ]
 
     steps:
       - uses: actions/checkout@v3
