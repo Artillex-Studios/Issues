@@ -54,7 +54,9 @@ body:
         - axsmithing
         - axsumo
         - axtrade
-        - axvaults
+        - axvaults    
+    validations:
+      required: true
   - type: textarea
     id: versions
     attributes:
