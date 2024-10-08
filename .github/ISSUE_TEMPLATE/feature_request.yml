@@ -41,6 +41,8 @@ body:
         - axsumo
         - axtrade
         - axvaults
+    validations:
+      required: true        
   - type: checkboxes
     id: agreements
     attributes:
