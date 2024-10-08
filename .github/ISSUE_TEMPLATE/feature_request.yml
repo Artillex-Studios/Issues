@@ -1,0 +1,27 @@
+name: "Feature Request"
+description: "Request a feature"
+title: "[FEATURE] "
+labels: ["feature request", "priority: LOW"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to help our plugin improve!
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description of the feature"
+      description: "Describe what you'd like added to the plugin."
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: "Agreements"
+      description: "Please agree to some general guidelines"
+      options:
+        - label: "I have checked that this feature does not exist in the current latest version of the plugin available."
+          required: true
+        - label: "I accept that my feature request might not be added, and might be refused without any apparent reason."
+          required: true
+      
