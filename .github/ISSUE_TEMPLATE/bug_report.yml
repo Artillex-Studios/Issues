@@ -28,6 +28,33 @@ body:
       description: "How can we see the issue? This may include a video, pictures, or anything that might help us diagnose the issue."
     validations:
       required: true
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Which plugin is this issue with?
+      multiple: false
+      options:
+        - axafkzone
+        - axauctions
+        - axboosters
+        - axcalendar
+        - axenvoys
+        - axgens
+        - axgraves
+        - axinventoryrestore
+        - axkills
+        - axkoth
+        - axmines
+        - axminions
+        - axquestboard
+        - axrankmenu
+        - axrewards
+        - axsellwands
+        - axshulkers
+        - axsmithing
+        - axsumo
+        - axtrade
+        - axvaults
   - type: textarea
     id: versions
     attributes:
