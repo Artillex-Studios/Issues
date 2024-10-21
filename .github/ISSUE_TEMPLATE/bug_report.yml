@@ -54,7 +54,15 @@ body:
         - axsmithing
         - axsumo
         - axtrade
-        - axvaults    
+        - axvaults
+        - axplayerwarps
+        - donutsell
+        - donutleaderboards
+        - donutshop
+        - donutrtp
+        - donuttpa
+        - donuthomes
+        - donutspawners
     validations:
       required: true
   - type: textarea
