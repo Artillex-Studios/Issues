@@ -41,6 +41,14 @@ body:
         - axsumo
         - axtrade
         - axvaults
+        - axplayerwarps
+        - donutsell
+        - donutleaderboards
+        - donutshop
+        - donutrtp
+        - donuttpa
+        - donuthomes
+        - donutspawners
     validations:
       required: true        
   - type: checkboxes
