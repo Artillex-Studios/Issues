@@ -56,13 +56,7 @@ body:
         - axtrade
         - axvaults
         - axplayerwarps
-        - donutsell
-        - donutleaderboards
-        - donutshop
-        - donutrtp
-        - donuttpa
-        - donuthomes
-        - donutspawners
+        - axdarkauctions
     validations:
       required: true
   - type: textarea
