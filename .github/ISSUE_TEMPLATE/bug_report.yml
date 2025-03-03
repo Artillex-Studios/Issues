@@ -1,4 +1,5 @@
 name: "Bug Report"
+type: "Bug"
 description: "Report a bug"
 title: "[BUG] "
 labels: ["bug", "priority: LOW"]
