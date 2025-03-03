@@ -62,6 +62,6 @@ body:
     id: versions
     attributes:
       label: "Versions"
-      description: "What server, and plugin versions are you using? The best is to screenshot the output of /ver and /ver <plugin>"
+      description: "What server, and plugin versions are you using? The best is to screenshot the output of /ver and /ver [plugin]"
     validations:
       required: true
