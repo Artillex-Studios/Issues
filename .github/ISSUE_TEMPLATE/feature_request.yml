@@ -1,7 +1,6 @@
-name: "Feature Request"
+name: "🪄 Feature Request"
 description: "Request a feature"
 type: "Feature"
-labels: ["priority: LOW"]
 body:
   - type: markdown
     attributes:
