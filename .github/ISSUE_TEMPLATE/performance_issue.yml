@@ -1,0 +1,76 @@
+name: "🐛 Performance issue"
+description: "Report a performance issue"
+type: "Performance issue"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to report an issue!
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description of the issue"
+      description: "Describe what the issue is about, when it occurs."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behaviour"
+      description: "What did you expect would happen?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "How can we see the issue? This may include logs, videos, pictures, or anything that might help us diagnose the issue."
+    validations:
+      required: true
+  - type: textarea
+    id: report_link
+    attributes:
+      label: "Report link"
+      description: "Please share a spark report of the issue! Please share the entire report instead of only screenshots."
+    validations:
+      required: true
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Which plugin is this issue with?
+      multiple: false
+      options:
+        - axafkzone
+        - axauctions
+        - axboosters
+        - axcalendar
+        - axenvoys
+        - axgens
+        - axgraves
+        - axinventoryrestore
+        - axkills
+        - axkoth
+        - axmines
+        - axminions
+        - axquestboard
+        - axrankmenu
+        - axrewards
+        - axsellwands
+        - axshulkers
+        - axsmithing
+        - axsumo
+        - axtrade
+        - axvaults
+        - axplayerwarps
+        - axdarkauctions
+        - axlobby
+        - axchatgames
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: "Versions"
+      description: "What server, and plugin versions are you using? The best is to screenshot the output of /ver and /ver [plugin]"
+    validations:
+      required: true
