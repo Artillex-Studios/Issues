@@ -20,7 +20,7 @@ jobs:
     
     strategy:
       matrix:
-        template: [ bug_report.yml, feature_request.yml ]
+        template: [ bug_report.yml, feature_request.yml, performance_issue.yml ]
 
     steps:
       - uses: actions/checkout@v3
