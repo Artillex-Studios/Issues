@@ -3,7 +3,7 @@ description: "Request a new plugin"
 type: "Plugin Request"
 body:
   - type: textarea
-    id: description
+    id: name
     attributes:
       label: "Name of the plugin"
       description: "What would you call this plugin?"
