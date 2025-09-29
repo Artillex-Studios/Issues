@@ -1,0 +1,26 @@
+name: "💎 New Plugin Request"
+description: "Request a new plugin"
+type: "Plugin Request"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Name of the plugin"
+      description: "What would you call this plugin?"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description of the plugin"
+      description: "Describe what would this plugin be about."
+    validations:
+      required: true      
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: "Agreements"
+      description: "Please agree to some general guidelines"
+      options:
+        - label: "I understand that this is just a suggestion and I have no expectation that this plugin will ever be made."
+          required: true

@@ -1,6 +1,6 @@
-name: "🐛 Performance issue"
+name: "⚡ Performance Issue"
 description: "Report a performance issue"
-type: "Performance issue"
+type: "Performance Issue"
 body:
   - type: markdown
     attributes:
@@ -65,6 +65,7 @@ body:
         - axdarkauctions
         - axlobby
         - axchatgames
+        - axspawners
     validations:
       required: true
   - type: textarea

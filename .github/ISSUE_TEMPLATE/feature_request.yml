@@ -44,6 +44,7 @@ body:
         - axdarkauctions
         - axlobby
         - axchatgames
+        - axspawners
     validations:
       required: true        
   - type: checkboxes
