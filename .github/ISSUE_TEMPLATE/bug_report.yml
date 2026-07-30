@@ -62,6 +62,7 @@ body:
         - axhoes
         - axpickaxes
         - axglow
+        - axsellchests
     validations:
       required: true
   - type: textarea
