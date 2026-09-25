@@ -49,6 +49,7 @@ body:
         - axpickaxes
         - axglow
         - axsellchests
+        - axtreasures
     validations:
       required: true        
   - type: checkboxes
