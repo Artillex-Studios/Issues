@@ -50,6 +50,9 @@ body:
         - axglow
         - axsellchests
         - axtreasures
+        - axdiscordlink
+        - axchat
+        - axshovels
     validations:
       required: true        
   - type: checkboxes
